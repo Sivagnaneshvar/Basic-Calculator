@@ -1,0 +1,41 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# Flask / app-specific
+instance/
+*.sqlite
+*.db
+
+# IDE & editor files
+.vscode/
+.idea/
+*.suo
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node / test runner (not part of the Flask app)
+test_calculator.js
+node_modules/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
